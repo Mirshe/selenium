@@ -55,7 +55,7 @@ public class PlaseTime {
             ese.click(By.xpath("//div[contains(@class,'x-window-mc')]//ul[contains(@class,'x-tab-strip')]/li[4]"));
             ese.isElement(By.xpath("//input[contains(@id,\"tvbrowserinp_\") and contains(@id,'_1_15')]"));
             ese.typo(By.xpath("//input[contains(@id,\"tvbrowserinp_\") and contains(@id,'_1_15')]"),mainimg);
-
+            ese.click(By.xpath("//div[contains(@class,'x-window-mc')]//ul[contains(@class,'x-tab-strip')]/li[4]"));
             JSONArray images = null;
             try {
                 images = new JSONArray(anArr.split("<\\*\\*\\*>")[4]);
@@ -78,8 +78,8 @@ public class PlaseTime {
                 ese.click(By.xpath("(//button[text()='Выполнено'])[2]"));
             }
             ese.typo(By.xpath("//input[contains(@id,\"tvbrowserinp_\") and contains(@id,'_1_17')]"),bigimg);
-            ese.typo(By.xpath("//input[contains(@id,\"tvbrowserinp_\") and contains(@id,'_1_18')]"),cropimg);
             ese.click(By.xpath("//div[contains(@class,'x-window-mc')]//ul[contains(@class,'x-tab-strip')]/li[4]"));
+            ese.typo(By.xpath("//input[contains(@id,\"tvbrowserinp_\") and contains(@id,'_1_18')]"),cropimg);
             ese.click(By.xpath("//button[text()='Выполнено']]"));
         }
     }
