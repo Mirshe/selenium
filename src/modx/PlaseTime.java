@@ -15,7 +15,7 @@ public class PlaseTime {
         TestUtils ese = new TestUtils();
         ArrayList<String> arr = new ArrayList<String>();
         //change file URL
-        ese.leer("C:\\Users\\Mirshe\\IdeaProjects\\selenium\\src\\txts\\PlaceTime.txt", arr);
+        ese.leer("D:\\move_to_griz\\selenium\\src\\txts\\PlaceTime.txt", arr);
         //insert URL
         ese.initialize("https://placeandtime.pl/manager/?a=index&namespace=migx&configs=news");
         ese.pageLoaded();

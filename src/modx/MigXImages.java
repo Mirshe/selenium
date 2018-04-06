@@ -14,7 +14,7 @@ public class MigXImages {
         String fin = "_16_1";
         TestUtils ese = new TestUtils();
         ArrayList<String> arr = new ArrayList<String>();
-        ese.leer("C:\\Users\\Mirshe\\IdeaProjects\\selenium\\src\\txts\\MigXImages.txt", arr);
+        ese.leer("D:\\move_to_griz\\selenium\\src\\txts\\MigXImages.txt", arr);
         ese.initialize("http://ilosos.lovegrizzly.ml/manager/?a=resource/update&id=3");
         ese.pageLoaded();
         ese.click(By.id("modx-resource-tabs__modx-panel-resource-tv"));

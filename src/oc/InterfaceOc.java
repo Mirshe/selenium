@@ -18,7 +18,7 @@ public class InterfaceOc {
        TestUtils ese = new TestUtils();
       ArrayList<String> arr = new ArrayList<String>();
         //change file URL
-       ese.leer("C:\\Users\\Mirshe\\IdeaProjects\\selenium\\src\\txts\\Interface.txt", arr);
+       ese.leer("D:\\move_to_griz\\selenium\\src\\txts\\Interface.txt", arr);
         //editToken
       ese.initialize("https://liga42.com/admin/");
       ese.pageLoaded();

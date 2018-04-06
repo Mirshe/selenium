@@ -13,7 +13,7 @@ public class losos {
         TestUtils ese = new TestUtils();
         ArrayList<String> arr = new ArrayList<String>();
         //change file URL
-        ese.leer("C:\\Users\\Mirshe\\IdeaProjects\\selenium\\src\\txts\\losos.txt", arr);
+        ese.leer("D:\\move_to_griz\\selenium\\src\\txts\\losos.txt", arr);
         //insert URL
         ese.initialize("http://ilosos.lovegrizzly.ml/manager/");
         ese.pageLoaded();

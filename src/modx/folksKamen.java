@@ -13,7 +13,7 @@ public class folksKamen {
         TestUtils ese = new TestUtils();
         ArrayList<String> arr = new ArrayList<String>();
         //change file URL
-        ese.leer("C:\\Users\\Mirshe\\IdeaProjects\\selenium\\src\\txts\\folksKamen.txt", arr);
+        ese.leer("D:\\move_to_griz\\selenium\\src\\txts\\folksKamen.txt", arr);
         //insert URL
         ese.initialize("http://folk-kamen.lovegrizzly.ml/manager/");
         ese.pageLoaded();
